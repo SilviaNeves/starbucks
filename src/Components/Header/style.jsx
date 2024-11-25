@@ -11,19 +11,19 @@ export const StyleLink = styled(Link)`
   color: #1e3932;
   
    &:hover{
-       color: palevioletred;
+       color: green;
    }
 `;
 
 export const Ul = styled.ul`
 display: flex;
-width: 40vw;
+width: 50vw;
 justify-content: space-around;
 list-style: none;
 `
 
-// export const Li = styled.li`
-// &:hover{
-//     color: palevioletred;
-// }
-// `
+export const Li = styled.li`
+&:hover{
+    color: green;
+}
+`
